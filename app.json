@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "OneBuddy",
+    "slug": "onebuddy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#121214",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.onebuddy.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "OneBuddy uses your location to find nearby stores and give accurate arrival times."
+      }
+    },
+    "android": {
+      "package": "com.onebuddy.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#121214"
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "OneBuddy uses your location to find nearby stores and give accurate arrival times."
+        }
+      ]
+    ]
+  }
+}

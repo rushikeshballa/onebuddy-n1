@@ -1,0 +1,16 @@
+export const colors = {
+  bg: "#F9FAFB",
+  text: "#111827",
+  subtext: "#4B5563",
+  border: "#E5E7EB",
+  divider: "#E5E7EB",
+  cardBg: "#FFFFFF",
+  inputBg: "#FFFFFF",
+  orderThumbBg: "#F3F4F6",
+  starActive: "#F0B429",
+  starInactive: "#E5E7EB",
+  green: "#4ADE80",
+  orange: "#65A30D",
+  photoBoxBorder: "#E5E7EB",
+  photoIcon: "#9CA3AF",
+} as const;
